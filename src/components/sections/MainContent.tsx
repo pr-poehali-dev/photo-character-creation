@@ -45,32 +45,6 @@ const MainContent = () => {
 
   return (
     <div className="flex-1 bg-gray-900 p-8">
-      {/* Промо баннер */}
-      <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-6 mb-8 text-white relative overflow-hidden">
-        <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <Icon name="Sparkles" size={20} />
-              <span className="text-sm font-medium">
-                Ограниченное предложение!
-              </span>
-            </div>
-            <p className="text-lg">
-              Разблокируйте год безграничного творчества со всеми годовыми
-              планами со скидкой 50%
-            </p>
-          </div>
-          <div className="flex gap-3">
-            <button className="bg-white text-purple-600 px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-              Посмотреть план
-            </button>
-            <button className="text-white hover:text-gray-200 transition-colors">
-              <Icon name="X" size={20} />
-            </button>
-          </div>
-        </div>
-      </div>
-
       {/* Основные инструменты */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <ToolCard
