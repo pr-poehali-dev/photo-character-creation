@@ -70,7 +70,7 @@ const Icon = ({
   fallback = "CircleAlert",
 }: IconProps) => {
   const IconComponent = iconMap[name] || iconMap[fallback];
-  return null;
+  return <IconComponent size={size} className={className} />;
 };
 
 export default Icon;
