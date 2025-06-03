@@ -16,7 +16,7 @@ const WhatToCreateSection = () => {
         <ToolCard
           title="Сторителлинг"
           icon=""
-          color="bg-gradient-to-br from-yellow-500 to-orange-600"
+          color="bg-[#FF8254]"
           onClick={() => console.log("Открыть генератор историй")}
         />
       </div>

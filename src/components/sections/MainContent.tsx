@@ -45,7 +45,7 @@ const MainContent = () => {
       title: "Сторителлинг",
       description: "Создайте увлекательные истории",
       icon: "BookOpen",
-      color: "bg-gradient-to-br from-indigo-600 to-purple-700",
+      color: "bg-[#FF8254]",
     },
   ];
 
