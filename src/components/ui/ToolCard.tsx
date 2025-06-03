@@ -35,23 +35,35 @@ const ToolCard = ({
       )}
 
       <div className="flex flex-col h-full">
-        <div className="mb-4">
-          <div
-            className={`inline-flex p-3 rounded-xl bg-white bg-opacity-20 ${isLarge ? "mb-4" : "mb-2"}`}
-          >
-            <Icon name={icon} size={isLarge ? 32 : 24} className="text-white" />
+        {icon && (
+          <div className="mb-4">
+            <div
+              className={`inline-flex p-3 rounded-xl bg-white bg-opacity-20 ${isLarge ? "mb-4" : "mb-2"}`}
+            >
+              <Icon
+                name={icon}
+                size={isLarge ? 32 : 24}
+                className="text-white"
+              />
+            </div>
           </div>
-        </div>
+        )}
 
-        <div className="flex-1">
-          <h3
-            className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
-          >
-            {title}
-          </h3>
-          {description && (
-            <p className="text-white text-opacity-90 text-sm">{description}</p>
-          )}
+        <div
+          className={`flex-1 ${!icon ? "flex items-center justify-center" : ""}`}
+        >
+          <div className={!icon ? "text-center" : ""}>
+            <h3
+              className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
+            >
+              {title}
+            </h3>
+            {description && (
+              <p className="text-white text-opacity-90 text-sm">
+                {description}
+              </p>
+            )}
+          </div>
         </div>
 
         {isLarge && (
