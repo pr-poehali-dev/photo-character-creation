@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <div className="w-64 bg-gray-900 text-white min-h-screen p-4">
-      <div className="flex items-center gap-3 mb-8 px-1">
+      <div className="flex items-center gap-3 mb-8 mx-0 px-0">
         <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
           <img
             src="https://cdn.poehali.dev/files/a45605a9-8a99-4369-9b5d-cb14a3412135.png"
