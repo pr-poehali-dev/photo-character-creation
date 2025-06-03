@@ -16,7 +16,7 @@ const ExploreModelsCard = () => {
             Исследуйте модели
           </h4>
           <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
-            Посмотрите 100+ настроенных моделей
+            Посмотрите 100+ моделей
           </p>
         </div>
       </div>

@@ -16,7 +16,7 @@ const ChooseStyleCard = () => {
             Выберите стиль
           </h4>
           <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
-            Начните со стиля, который вам нравится
+            Начните со стиля, который нравится
           </p>
         </div>
       </div>
