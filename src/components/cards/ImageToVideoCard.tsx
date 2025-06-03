@@ -15,7 +15,7 @@ const ImageToVideoCard = () => {
           <h4 className="font-semibold text-white text-lg mb-0 leading-tight">
             Изображение в видео
           </h4>
-          <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
+          <p className="text-blue-200/80 text-sm leading-relaxed mb-0 -mt-0.5">
             Оживите ваше изображение
           </p>
         </div>
