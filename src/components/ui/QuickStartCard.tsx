@@ -17,17 +17,17 @@ const QuickStartCard = ({
 }: QuickStartCardProps) => {
   return (
     <div
-      className="rounded-xl p-4 cursor-pointer hover:opacity-80 transition-all"
+      className="rounded-xl p-6 cursor-pointer hover:opacity-80 transition-all"
       style={{ backgroundColor: "#332D47" }}
     >
       <div className="flex items-start gap-4">
-        <div className={`p-2 rounded-lg ${color}`}>
-          <Icon name={icon || "FolderOpen"} size={20} className="text-white" />
+        <div className={`p-3 rounded-lg ${color} flex-shrink-0`}>
+          <Icon name={icon || "FolderOpen"} size={24} className="text-white" />
         </div>
 
-        <div className="flex-1">
-          <h4 className="font-semibold text-white mb-1">{title}</h4>
-          <p className="text-blue-200 text-sm font-medium leading-relaxed">
+        <div className="flex-1 min-w-0">
+          <h4 className="font-semibold text-white mb-2 text-lg">{title}</h4>
+          <p className="text-blue-200/80 text-sm leading-relaxed">
             {description}
           </p>
         </div>
