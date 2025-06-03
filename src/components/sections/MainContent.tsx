@@ -58,7 +58,6 @@ const MainContent = () => {
           icon="BookOpen"
           color="bg-gradient-to-br from-yellow-500 to-orange-600"
           badge="Генерация"
-          description="Создавайте увлекательные истории с помощью ИИ"
           onClick={() => console.log("Открыть генератор историй")}
         />
       </div>
