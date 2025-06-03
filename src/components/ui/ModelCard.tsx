@@ -56,15 +56,10 @@ const ModelCard = ({
       </div>
 
       {/* Action buttons */}
-      <div className="flex gap-2">
-        <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
+      <div className="flex">
+        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
           {actionText}
         </button>
-        {secondaryAction && (
-          <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
-            {actionText}
-          </button>
-        )}
       </div>
     </div>
   );
