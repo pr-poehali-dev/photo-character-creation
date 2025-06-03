@@ -1,5 +1,6 @@
 import Sidebar from "@/components/layout/Sidebar";
 import Header from "@/components/layout/Header";
+import ActionBar from "@/components/layout/ActionBar";
 import PromoBanner from "@/components/layout/PromoBanner";
 import WhatToCreateSection from "@/components/sections/WhatToCreateSection";
 import QuickStartSection from "@/components/sections/QuickStartSection";
@@ -12,6 +13,7 @@ const Index = () => {
       <div className="flex-1 flex flex-col">
         <Header />
         <PromoBanner />
+        <ActionBar />
         <WhatToCreateSection />
         <QuickStartSection />
         <MainContent />
