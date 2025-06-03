@@ -69,7 +69,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="ИИ фильтры"
-            image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=250&fit=crop"
+            image="https://cdn.poehali.dev/files/2b76a07d-f1df-4d32-b93b-c71a2a200489.png"
             size="small"
           />
           <ToolCard
