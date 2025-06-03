@@ -132,6 +132,11 @@ const MainContent = () => {
             actionText="Использовать"
           />
         </div>
+        <div className="flex justify-center mt-8">
+          <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
+            Показать все модели
+          </button>
+        </div>
       </div>
     </div>
   );
