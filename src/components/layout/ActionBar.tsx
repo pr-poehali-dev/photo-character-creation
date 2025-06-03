@@ -21,7 +21,11 @@ const ActionBar = () => {
           />
         </button>
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
-          <Icon name="MessageCircle" size={20} />
+          <img
+            src="https://cdn.poehali.dev/files/94cfcd36-15bc-41e1-96df-268aad1b6cd9.png"
+            alt="Discord"
+            className="w-[44px] h-[44px] object-contain"
+          />
         </button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
