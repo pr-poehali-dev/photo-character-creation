@@ -3,101 +3,76 @@ import ToolCard from "@/components/ui/ToolCard";
 import QuickStartCard from "@/components/ui/QuickStartCard";
 
 const MainContent = () => {
-  const quickStartItems = [
+  const featuredApps = [
     {
-      title: "Изображение в видео",
-      description: "Оживите ваше изображение",
-      icon: "Play",
-      color: "bg-yellow-600",
+      title: "Image to Video",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=225&fit=crop",
       badge: "New",
     },
     {
-      title: "Выберите стиль",
-      description: "Начните со стиля, который вам нравится",
-      icon: "Palette",
-      color: "bg-green-600",
+      title: "Ultimate Upscale",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=225&fit=crop",
     },
     {
-      title: "Исследуйте модели",
-      description: "Посмотрите 100+ настроенных моделей",
-      icon: "Bot",
-      color: "bg-purple-600",
+      title: "AI Filters",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=400&h=225&fit=crop",
     },
     {
-      title: "Изображение",
-      description: "Создайте изображения из промптов",
-      icon: "",
-      color: "bg-pink-600",
+      title: "Sketch to Image",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=225&fit=crop",
     },
     {
-      title: "Улучшить качество",
-      description: "Улучшите ваши изображения",
-      icon: "Zap",
-      color: "bg-orange-600",
+      title: "Blend Board",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=400&h=225&fit=crop",
     },
     {
-      title: "Изображение в промпт",
-      description: "Конвертируйте изображение в текстовый промпт",
-      icon: "FileText",
-      color: "bg-teal-600",
+      title: "Change Facial Expression",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=225&fit=crop",
     },
     {
-      title: "Сторителлинг",
-      description: "Создайте увлекательные истории",
-      icon: "BookOpen",
-      color: "bg-[#FF8254]",
+      title: "Expand",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1574169208507-84376144848b?w=400&h=225&fit=crop",
+    },
+    {
+      title: "Remove Background",
+      author: "By OpenArt",
+      imageUrl:
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=225&fit=crop",
     },
   ];
 
   return (
     <div className="flex-1 p-8 bg-[#262233]">
-      {/* Рекомендуемые приложения */}
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6">
-          Рекомендуемые приложения
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {quickStartItems.map((item, index) => (
-            <QuickStartCard key={index} {...item} />
+      {/* Featured Apps */}
+      <div className="mb-12">
+        <h2 className="text-2xl font-bold text-white mb-6">Featured Apps</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {featuredApps.map((app, index) => (
+            <ToolCard key={index} {...app} />
           ))}
         </div>
       </div>
 
-      {/* Рекомендуемые приложения */}
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6">
-          Рекомендуемые приложения
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <ToolCard
-            title="AI Портреты"
-            description="Создавайте реалистичные портреты"
-            icon="User"
-            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
-            size="small"
-          />
-          <ToolCard
-            title="Фэнтези арт"
-            description="Магические существа и миры"
-            icon="Sparkles"
-            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
-            size="small"
-          />
-          <ToolCard
-            title="Аниме стиль"
-            description="Персонажи в стиле аниме"
-            icon="Heart"
-            color="bg-gradient-to-br from-pink-500 to-red-600"
-            size="small"
-          />
-          <ToolCard
-            title="Концепт арт"
-            description="Профессиональные концепты"
-            icon="Brush"
-            color="bg-gradient-to-br from-teal-500 to-green-600"
-            size="small"
-          />
-        </div>
+      {/* Дополнительный раздел можно оставить или убрать */}
+      <div className="text-center">
+        <button className="bg-[#1a1825] hover:bg-[#2a2535] text-white px-6 py-3 rounded-lg transition-colors flex items-center gap-2 mx-auto">
+          View All Flow Apps
+          <Icon name="ArrowRight" size={16} />
+        </button>
       </div>
     </div>
   );
