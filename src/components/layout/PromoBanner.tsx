@@ -22,7 +22,7 @@ const PromoBanner = () => {
       </div>
 
       <div className="flex items-center gap-3">
-        <button className="bg-white text-purple-600 px-3 py-1 rounded text-xs font-medium hover:bg-gray-100 transition-colors mt-1">
+        <button className="bg-white text-purple-600 px-3 py-1 rounded text-xs font-medium hover:bg-gray-100 transition-colors">
           Посмотреть план
         </button>
         <button
