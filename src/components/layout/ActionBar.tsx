@@ -23,6 +23,9 @@ const ActionBar = () => {
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
           <Icon name="MessageCircle" size={20} />
         </button>
+        <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
+          <Icon name="Settings" size={20} />
+        </button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
