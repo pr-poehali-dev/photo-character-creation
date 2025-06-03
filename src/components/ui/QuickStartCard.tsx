@@ -16,7 +16,10 @@ const QuickStartCard = ({
   badge,
 }: QuickStartCardProps) => {
   return (
-    <div className="bg-gray-800 rounded-xl p-4 cursor-pointer hover:bg-gray-700 transition-colors">
+    <div
+      className="rounded-xl p-4 cursor-pointer hover:opacity-80 transition-all"
+      style={{ backgroundColor: "#484160" }}
+    >
       <div className="flex items-start gap-4">
         <div className={`p-2 rounded-lg ${color}`}>
           <Icon name={icon || "FolderOpen"} size={20} className="text-white" />
