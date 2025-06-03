@@ -65,24 +65,17 @@ const ToolCard = ({
         )}
 
         {isLarge && (
-          <div className="flex gap-2">
-            {title === "Изображение" ? (
-              <>
-                <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
-                  <Icon name="Plus" size={16} />
-                  Создать изображение
-                </button>
-                <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
-                  <Icon name="Edit" size={16} />
-                  Редактировать
-                </button>
-              </>
-            ) : (
-              <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
-                <Icon name="Plus" size={16} />
-                Создать историю
-              </button>
-            )}
+          <div className="flex gap-2 mt-6">
+            <button className="flex-1 bg-black bg-opacity-30 text-white px-4 hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 py-3 rounded-lg text-sm">
+              <Icon name="Plus" size={16} />
+              {title === "Изображение"
+                ? "Создать изображение"
+                : "Создать историю"}
+            </button>
+            <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 text-sm">
+              <Icon name="Edit" size={16} />
+              {title === "Изображение" ? "Редактировать" : "Превратить в видео"}
+            </button>
           </div>
         )}
       </div>
