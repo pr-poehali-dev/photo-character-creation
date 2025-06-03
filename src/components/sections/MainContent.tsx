@@ -51,22 +51,6 @@ const MainContent = () => {
 
   return (
     <div className="flex-1 bg-gray-900 p-8">
-      {/* Основные инструменты */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-        <ToolCard
-          title="Изображение"
-          icon=""
-          color="bg-gradient-to-br from-blue-500 to-blue-700"
-          onClick={() => console.log("Открыть генератор изображений")}
-        />
-        <ToolCard
-          title="Сторителлинг"
-          icon=""
-          color="bg-gradient-to-br from-yellow-500 to-orange-600"
-          onClick={() => console.log("Открыть генератор историй")}
-        />
-      </div>
-
       {/* Рекомендуемые приложения */}
       <div>
         <h2 className="text-2xl font-bold text-white mb-6">
