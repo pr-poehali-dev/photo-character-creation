@@ -29,7 +29,7 @@ const Sidebar = () => {
           />
         </div>
         {!isCollapsed && (
-          <span className="font-medium text-base">Контент Мейкер</span>
+          <span className="font-medium text-base">Контент мейкер</span>
         )}
       </div>
 
