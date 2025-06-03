@@ -61,8 +61,8 @@ const ModelCard = ({
           {actionText}
         </button>
         {secondaryAction && (
-          <button className="flex-1 bg-transparent border border-gray-600 hover:border-gray-500 text-gray-300 py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
-            {secondaryAction}
+          <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
+            {actionText}
           </button>
         )}
       </div>
