@@ -7,7 +7,7 @@ import MainContent from "@/components/sections/MainContent";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-900 flex">
+    <div className="min-h-screen flex" style={{ backgroundColor: "#262233" }}>
       <Sidebar />
       <div className="flex-1 flex flex-col">
         <PromoBanner />
