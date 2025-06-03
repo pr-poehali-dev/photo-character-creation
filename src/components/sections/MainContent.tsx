@@ -73,14 +73,14 @@ const MainContent = () => {
             title="AI Портреты"
             description="Создавайте реалистичные портреты"
             icon="User"
-            color="bg-gradient-to-br from-purple-500 to-pink-600"
+            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
             size="small"
           />
           <ToolCard
             title="Фэнтези арт"
             description="Магические существа и миры"
             icon="Sparkles"
-            color="bg-gradient-to-br from-purple-500 to-pink-600"
+            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
             size="small"
           />
           <ToolCard

@@ -10,7 +10,7 @@ const WhatToCreateSection = () => {
         <ToolCard
           title="Изображение"
           icon=""
-          color="bg-gradient-to-br from-green-500 to-green-700"
+          color="bg-gradient-to-br from-[#547CFF] to-[#4267CC]"
           onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
