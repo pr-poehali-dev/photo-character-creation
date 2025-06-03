@@ -36,9 +36,9 @@ const ToolCard = ({
 
       <div className="flex flex-col h-full">
         <div className="flex-1">
-          <div className={icon ? "mt-0" : "mt-2"}>
+          <div className="mt-2">
             <h3
-              className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"} ${!icon ? "ml-0" : ""}`}
+              className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
             >
               {title}
             </h3>

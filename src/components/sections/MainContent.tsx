@@ -24,9 +24,9 @@ const MainContent = () => {
       color: "bg-purple-600",
     },
     {
-      title: "Обучить модель",
-      description: "Настройте свою креативность",
-      icon: "Brain",
+      title: "Изображение",
+      description: "Создайте изображения из промптов",
+      icon: "",
       color: "bg-pink-600",
     },
     {
