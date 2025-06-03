@@ -1,6 +1,7 @@
 import Icon from "@/components/ui/icon";
 import ToolCard from "@/components/ui/ToolCard";
 import QuickStartCard from "@/components/ui/QuickStartCard";
+import ModelCard from "@/components/ui/ModelCard";
 
 const MainContent = () => {
   const quickStartItems = [
@@ -101,6 +102,56 @@ const MainContent = () => {
         <div className="flex justify-center mt-8">
           <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
             Смотреть все
+          </button>
+        </div>
+      </div>
+
+      {/* Выберите модель секция */}
+      <div className="mt-12">
+        <h2 className="text-2xl font-bold text-white mb-6">Выберите модель</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <ModelCard
+            title="Train your own model"
+            description="Customize your creativity"
+            hasPlus={true}
+            isPro={true}
+            actionText="Create"
+            secondaryAction="Gallery"
+          />
+          <ModelCard
+            title="FLUX.1 [schnell]"
+            description="Быстрая генерация изображений"
+            icon="Zap"
+            actionText="Использовать"
+          />
+          <ModelCard
+            title="Stable Diffusion XL"
+            description="Высокое качество и детализация"
+            icon="Sparkles"
+            actionText="Использовать"
+          />
+          <ModelCard
+            title="Midjourney Style"
+            description="Художественный стиль генерации"
+            icon="Palette"
+            actionText="Использовать"
+          />
+          <ModelCard
+            title="DALL-E Style"
+            description="Креативные и уникальные изображения"
+            icon="Bot"
+            actionText="Использовать"
+          />
+          <ModelCard
+            title="Leonardo AI"
+            description="Профессиональные изображения"
+            icon="Crown"
+            actionText="Использовать"
+          />
+        </div>
+        <div className="flex justify-center mt-8">
+          <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
+            Больше
           </button>
         </div>
       </div>
