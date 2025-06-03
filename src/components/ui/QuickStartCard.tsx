@@ -19,7 +19,7 @@ const QuickStartCard = ({
     <div className="bg-gray-800 rounded-xl p-4 cursor-pointer hover:bg-gray-700 transition-colors">
       <div className="flex items-start gap-4">
         <div className={`p-2 rounded-lg ${color}`}>
-          <Icon name="FolderOpen" size={20} className="text-white" />
+          <Icon name={icon || "FolderOpen"} size={20} className="text-white" />
         </div>
 
         <div className="flex-1">
