@@ -73,8 +73,8 @@ const ToolCard = ({
                 : "Создать историю"}
             </button>
             <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 text-sm">
-              <Icon name="Edit" size={16} />
-              редактировать
+              <Icon name="Video" size={16} />
+              {title === "Изображение" ? "Загрузить" : "Превратить в видео"}
             </button>
           </div>
         )}
