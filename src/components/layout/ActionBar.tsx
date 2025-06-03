@@ -17,7 +17,7 @@ const ActionBar = () => {
           <img
             src="https://cdn.poehali.dev/files/9ab99646-1b03-41c4-ba98-7b5c129c3e7b.png"
             alt="YouTube"
-            className="w-6 h-6 object-contain"
+            className="w-[34px] h-[34px] object-contain"
           />
         </button>
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
