@@ -15,7 +15,7 @@ const EnhanceQualityCard = () => {
           <h4 className="font-semibold text-white text-lg mb-0 leading-tight">
             Улучшить качество
           </h4>
-          <p className="text-blue-200/80 text-sm leading-relaxed mb-0 -mt-0.5">
+          <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
             Улучшите ваши изображения
           </p>
         </div>
