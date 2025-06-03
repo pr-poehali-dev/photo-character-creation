@@ -2,7 +2,10 @@ import Icon from "@/components/ui/icon";
 
 const ActionBar = () => {
   return (
-    <div className="border-b-2 border-gray-200 px-6 py-3 bg-[#262233]">
+    <div
+      className="border-b-2 px-6 py-3 bg-[#262233]"
+      style={{ borderBottomColor: "#374151" }}
+    >
       <div className="flex items-center justify-end gap-4">
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
           <Icon name="Youtube" size={20} />
