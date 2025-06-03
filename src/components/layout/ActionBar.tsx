@@ -13,14 +13,14 @@ const ActionBar = () => {
       style={{ borderBottomColor: "#374151" }}
     >
       <div className="flex items-center justify-end gap-4">
-        <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-2.5">
+        <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-1">
           <img
             src="https://cdn.poehali.dev/files/9ac6be48-d195-4ac2-9b99-9971a72859e1.png"
             alt="YouTube"
             className="w-[44px] h-[44px] object-contain"
           />
         </button>
-        <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-2.5">
+        <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-1">
           <img
             src="https://cdn.poehali.dev/files/94cfcd36-15bc-41e1-96df-268aad1b6cd9.png"
             alt="Discord"
@@ -29,7 +29,7 @@ const ActionBar = () => {
         </button>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-2.5">
+            <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-1">
               <Icon name="MoreVertical" size={20} />
             </button>
           </DropdownMenuTrigger>
