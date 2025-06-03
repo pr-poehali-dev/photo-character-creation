@@ -50,7 +50,7 @@ const ToolCard = ({
           </div>
         </div>
 
-        {icon && (
+        {icon && icon.trim() && (
           <div className="mb-4">
             <div
               className={`inline-flex p-3 rounded-xl bg-white bg-opacity-20 ${isLarge ? "mb-4" : "mb-2"}`}
