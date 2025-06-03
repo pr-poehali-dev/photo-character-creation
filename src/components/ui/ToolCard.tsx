@@ -38,7 +38,8 @@ const ToolCard = ({
         <div className="flex-1">
           <div className={icon ? "mt-2" : "mt-0"}>
             <h3
-              className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
+              className={`font-bold mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
+              style={{ color: "#262233" }}
             >
               {title}
             </h3>
