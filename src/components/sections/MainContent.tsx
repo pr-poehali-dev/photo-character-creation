@@ -129,6 +129,7 @@ const MainContent = () => {
             description="Высокое качество и детализация"
             icon="Sparkles"
             actionText="Использовать"
+            tags={["SDXL", "Quality", "Popular"]}
           />
         </div>
         <div className="flex justify-center mt-8">
