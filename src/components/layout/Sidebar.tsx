@@ -47,9 +47,7 @@ const Sidebar = () => {
           <div
             key={index}
             className={`flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors ${
-              item.active
-                ? "text-white border-l-2"
-                : "text-gray-300 hover:text-white"
+              item.active ? "text-white" : "text-gray-300 hover:text-white"
             }`}
             style={{
               backgroundColor: item.active
