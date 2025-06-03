@@ -27,7 +27,9 @@ const QuickStartCard = ({
 
         <div className="flex-1">
           <h4 className="font-semibold text-white mb-1">{title}</h4>
-          <p className="text-gray-400 text-sm">{description}</p>
+          <p className="text-blue-200 text-sm font-medium leading-relaxed">
+            {description}
+          </p>
         </div>
       </div>
     </div>
