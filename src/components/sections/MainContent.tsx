@@ -51,18 +51,6 @@ const MainContent = () => {
 
   return (
     <div className="flex-1 p-8 bg-[#262233]">
-      {/* Рекомендуемые приложения */}
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6">
-          Рекомендуемые приложения
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {quickStartItems.map((item, index) => (
-            <QuickStartCard key={index} {...item} />
-          ))}
-        </div>
-      </div>
-
       <div>
         <h2 className="text-2xl font-bold text-white mb-6">Featured Apps</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
