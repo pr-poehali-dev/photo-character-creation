@@ -18,7 +18,7 @@ const QuickStartCard = ({
   return (
     <div
       className="rounded-xl p-4 cursor-pointer hover:opacity-80 transition-all"
-      style={{ backgroundColor: "#484160" }}
+      style={{ backgroundColor: "#332D47" }}
     >
       <div className="flex items-start gap-4">
         <div className={`p-2 rounded-lg ${color}`}>
