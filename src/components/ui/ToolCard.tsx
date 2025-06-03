@@ -49,10 +49,8 @@ const ToolCard = ({
           </div>
         )}
 
-        <div
-          className={`flex-1 ${!icon ? "flex items-center justify-center" : ""}`}
-        >
-          <div className={!icon ? "text-center" : ""}>
+        <div className="flex-1">
+          <div>
             <h3
               className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
             >
