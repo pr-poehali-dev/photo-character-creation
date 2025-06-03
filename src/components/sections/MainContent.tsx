@@ -7,7 +7,7 @@ const MainContent = () => {
     {
       title: "Изображение в видео",
       description: "Оживите ваше изображение",
-      icon: "Video",
+      icon: "Play",
       color: "bg-yellow-600",
       badge: "New",
     },
