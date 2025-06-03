@@ -13,7 +13,7 @@ const ActionBar = () => {
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
           <Icon name="HelpCircle" size={20} />
         </button>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
+        <button className="text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 bg-[#3452b8]">
           <Icon name="Plus" size={16} />
           Создать
         </button>
