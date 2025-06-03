@@ -13,6 +13,12 @@ const ActionBar = () => {
       style={{ borderBottomColor: "#374151" }}
     >
       <div className="flex items-center justify-end gap-4">
+        <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+          Создать
+        </button>
+        <button className="px-4 py-2 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-50 transition-colors">
+          Войти
+        </button>
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
           <Icon name="Youtube" size={20} />
         </button>
