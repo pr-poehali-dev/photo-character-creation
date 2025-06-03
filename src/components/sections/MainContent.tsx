@@ -1,3 +1,4 @@
+import Icon from "@/components/ui/icon";
 import ToolCard from "@/components/ui/ToolCard";
 import QuickStartCard from "@/components/ui/QuickStartCard";
 
