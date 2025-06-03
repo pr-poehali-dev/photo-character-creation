@@ -16,12 +16,12 @@ const Sidebar = () => {
 
   return (
     <div className="w-64 bg-gray-900 text-white min-h-screen p-4">
-      <div className="flex items-center gap-2 mb-8">
-        <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
+      <div className="flex items-center gap-3 mb-8 px-1">
+        <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
           <img
             src="https://cdn.poehali.dev/files/a45605a9-8a99-4369-9b5d-cb14a3412135.png"
             alt="Логотип"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
         <span className="font-medium text-base">Создание картинок</span>
