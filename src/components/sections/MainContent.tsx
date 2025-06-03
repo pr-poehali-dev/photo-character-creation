@@ -52,7 +52,9 @@ const MainContent = () => {
   return (
     <div className="flex-1 p-8 bg-[#262233]">
       <div>
-        <h2 className="text-2xl font-bold text-white mb-6">Featured Apps</h2>
+        <h2 className="text-2xl font-bold text-white mb-6">
+          Рекомендуемые приложения
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ToolCard
             title="Image to Video"
