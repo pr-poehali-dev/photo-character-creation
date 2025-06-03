@@ -13,7 +13,7 @@ const PromoBanner = () => {
 
       <div className="flex items-center gap-3">
         <button className="bg-white text-purple-600 px-3 py-1 rounded text-xs font-medium hover:bg-gray-100 transition-colors">
-          View Plan
+          Посмотреть план
         </button>
         <button className="text-white hover:text-gray-200 transition-colors">
           <Icon name="X" size={16} />
