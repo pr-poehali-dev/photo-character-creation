@@ -35,10 +35,10 @@ const Sidebar = () => {
 
       <button
         onClick={() => setIsCollapsed(!isCollapsed)}
-        className="flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4"
+        className="flex items-center justify-between px-3 py-2 cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4"
       >
-        <Icon name={isCollapsed ? "ChevronRight" : "ChevronLeft"} size={20} />
         {!isCollapsed && <span className="text-sm font-medium">Свернуть</span>}
+        <Icon name={isCollapsed ? "ChevronRight" : "ChevronLeft"} size={20} />
       </button>
 
       <nav className="space-y-2">
