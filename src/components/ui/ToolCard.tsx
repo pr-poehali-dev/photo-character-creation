@@ -56,7 +56,7 @@ const ToolCard = ({
 
         {isLarge && (
           <div className="flex gap-2 mt-6">
-            <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2">
+            <button className="flex-1 bg-black bg-opacity-30 text-white px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 py-0">
               <Icon name="Plus" size={16} />
               Создать изображение
             </button>
