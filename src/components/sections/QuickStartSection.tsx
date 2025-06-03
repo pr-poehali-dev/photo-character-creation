@@ -8,6 +8,7 @@ const QuickStartSection = () => {
       description: "Оживите ваше изображение",
       icon: "Play",
       color: "bg-yellow-600",
+      badge: "New",
     },
     {
       title: "Выберите стиль",
