@@ -24,7 +24,7 @@ const ActionBar = () => {
           <img
             src="https://cdn.poehali.dev/files/94cfcd36-15bc-41e1-96df-268aad1b6cd9.png"
             alt="Discord"
-            className="w-[24px] h-[24px] object-contain"
+            className="w-[44px] h-[44px] object-contain"
           />
         </button>
         <DropdownMenu>
