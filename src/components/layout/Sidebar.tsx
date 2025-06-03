@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="flex items-center gap-3 mb-8 mx-0 px-0">
         <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
           <div className="w-full h-full bg-gradient-to-br from-purple-500 to-indigo-600 rounded-md flex items-center justify-center">
-            <Icon name="Bot" size={16} className="text-white" />
+            <Icon name="Sparkles" size={16} className="text-white" />
           </div>
         </div>
         {!isCollapsed && (
