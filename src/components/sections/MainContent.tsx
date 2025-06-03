@@ -84,8 +84,8 @@ const MainContent = () => {
             size="small"
           />
           <ToolCard
-            title="Изменить выражение лица"
-            image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
+            title="Изменить выражение"
+            image="https://cdn.poehali.dev/files/1c345f92-3ccd-4e74-aa07-6148cecce5df.png"
             size="small"
           />
           <ToolCard
