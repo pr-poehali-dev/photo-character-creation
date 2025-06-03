@@ -39,12 +39,6 @@ const QuickStartSection = () => {
       icon: "FileText",
       color: "bg-teal-600",
     },
-    {
-      title: "Сторителлинг",
-      description: "Создайте увлекательные истории",
-      icon: "BookOpen",
-      color: "bg-gradient-to-br from-indigo-600 to-purple-700",
-    },
   ];
 
   return (
