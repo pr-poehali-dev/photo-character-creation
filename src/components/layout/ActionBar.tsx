@@ -15,7 +15,7 @@ const ActionBar = () => {
       <div className="flex items-center justify-end gap-4">
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors mr-2.5">
           <img
-            src="https://cdn.poehali.dev/files/9ab99646-1b03-41c4-ba98-7b5c129c3e7b.png"
+            src="https://cdn.poehali.dev/files/9ac6be48-d195-4ac2-9b99-9971a72859e1.png"
             alt="YouTube"
             className="w-[44px] h-[44px] object-contain"
           />
