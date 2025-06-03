@@ -57,50 +57,50 @@ const MainContent = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ToolCard
-            title="Image to Video"
+            title="Изображение в видео"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=250&fit=crop"
-            badge="New"
+            badge="Новое"
             size="small"
           />
           <ToolCard
-            title="Ultimate Upscale"
+            title="Улучшение качества"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="AI Filters"
+            title="ИИ фильтры"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Sketch to Image"
+            title="Скетч в изображение"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Blend Board"
+            title="Доска смешивания"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Change Facial Expression"
+            title="Изменить выражение лица"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Expand"
+            title="Расширить"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Remove background"
+            title="Удалить фон"
             author="OpenArt"
             image="https://images.unsplash.com/photo-1541336032412-2048a678540d?w=400&h=250&fit=crop"
             size="small"

@@ -46,11 +46,11 @@ const ToolCard = ({
         {/* Контент */}
         <div className="p-4">
           <h3 className="font-semibold text-white text-lg mb-1">{title}</h3>
-          {author && <p className="text-gray-400 text-sm mb-3">By {author}</p>}
+          {author && <p className="text-gray-400 text-sm mb-3">От {author}</p>}
 
           <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium">
             <Icon name="Play" size={16} />
-            Run
+            Запустить
           </button>
         </div>
       </div>
