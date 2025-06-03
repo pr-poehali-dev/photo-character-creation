@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 const ActionBar = () => {
   return (
     <div
-      className="border-b-2 px-6 py-3 bg-[#262233]"
+      className="border-b px-6 py-3 bg-[#262233]"
       style={{ borderBottomColor: "#374151" }}
     >
       <div className="flex items-center justify-end gap-4">
