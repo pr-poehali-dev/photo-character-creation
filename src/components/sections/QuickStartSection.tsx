@@ -1,53 +1,21 @@
-import Icon from "@/components/ui/icon";
-import QuickStartCard from "@/components/ui/QuickStartCard";
+import ImageToVideoCard from "@/components/cards/ImageToVideoCard";
+import ChooseStyleCard from "@/components/cards/ChooseStyleCard";
+import ExploreModelsCard from "@/components/cards/ExploreModelsCard";
+import CreateImageCard from "@/components/cards/CreateImageCard";
+import EnhanceQualityCard from "@/components/cards/EnhanceQualityCard";
+import ImageToPromptCard from "@/components/cards/ImageToPromptCard";
 
 const QuickStartSection = () => {
-  const quickStartItems = [
-    {
-      title: "Изображение в видео",
-      description: "Оживите ваше изображение",
-      icon: "Play",
-      color: "bg-yellow-600",
-    },
-    {
-      title: "Выберите стиль",
-      description: "Начните со стиля, который вам нравится",
-      icon: "Palette",
-      color: "bg-green-600",
-    },
-    {
-      title: "Исследуйте модели",
-      description: "Посмотрите 100+ настроенных моделей",
-      icon: "Bot",
-      color: "bg-purple-600",
-    },
-    {
-      title: "Изображение",
-      description: "Создайте изображения из промптов",
-      icon: "",
-      color: "bg-pink-600",
-    },
-    {
-      title: "Улучшить качество",
-      description: "Улучшите ваши изображения",
-      icon: "Zap",
-      color: "bg-orange-600",
-    },
-    {
-      title: "Изображение в промпт",
-      description: "Конвертируйте изображение в текстовый промпт",
-      icon: "FileText",
-      color: "bg-teal-600",
-    },
-  ];
-
   return (
     <div className="px-8 py-6 bg-[#262233]">
       <h2 className="text-2xl font-bold text-white mb-6">Быстрый старт</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {quickStartItems.map((item, index) => (
-          <QuickStartCard key={index} {...item} />
-        ))}
+        <ImageToVideoCard />
+        <ChooseStyleCard />
+        <ExploreModelsCard />
+        <CreateImageCard />
+        <EnhanceQualityCard />
+        <ImageToPromptCard />
       </div>
     </div>
   );
