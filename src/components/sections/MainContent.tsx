@@ -7,7 +7,7 @@ const MainContent = () => {
     {
       title: "Изображение в видео",
       description: "Оживите ваше изображение",
-      icon: "Video",
+      icon: "Play",
       color: "bg-yellow-600",
       badge: "New",
     },
@@ -55,7 +55,7 @@ const MainContent = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <ToolCard
           title="Изображение"
-          icon="ImageIcon"
+          icon=""
           color="bg-gradient-to-br from-blue-500 to-blue-700"
           onClick={() => console.log("Открыть генератор изображений")}
         />

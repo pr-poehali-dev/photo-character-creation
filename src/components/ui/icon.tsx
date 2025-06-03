@@ -23,6 +23,7 @@ import {
   Heart,
   Brush,
   CircleAlert,
+  Play,
 } from "lucide-react";
 
 const iconMap = {
@@ -50,6 +51,7 @@ const iconMap = {
   Heart,
   Brush,
   CircleAlert,
+  Play,
 };
 
 interface IconProps {
