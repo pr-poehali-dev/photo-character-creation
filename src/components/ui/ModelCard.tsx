@@ -24,7 +24,7 @@ const ModelCard = ({
   tags = [],
 }: ModelCardProps) => {
   return (
-    <div className="bg-[#1a1625] rounded-xl overflow-hidden hover:bg-[#1f1a2e] transition-colors duration-200 cursor-pointer group">
+    <div className="bg-[#1a1625] rounded-xl overflow-hidden hover:bg-[#1f1a2e] transition-colors duration-200 cursor-pointer group flex flex-col h-full">
       {/* Image section */}
       <div className="relative h-40 bg-gradient-to-br from-blue-600/20 to-purple-600/20">
         {image ? (
@@ -52,7 +52,7 @@ const ModelCard = ({
       </div>
 
       {/* Content section */}
-      <div className="p-4">
+      <div className="p-4 flex-1 flex flex-col">
         {/* Title and description */}
         <div className="mb-3">
           <h3 className="text-white font-semibold text-base mb-1 leading-tight">
@@ -82,7 +82,7 @@ const ModelCard = ({
         )}
 
         {/* Action buttons */}
-        <div className="flex gap-2">
+        <div className="flex gap-2 mt-auto">
           <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium text-sm">
             {actionText}
           </button>
