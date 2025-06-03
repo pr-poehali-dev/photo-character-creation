@@ -68,17 +68,17 @@ const ToolCard = ({
           <div className="flex gap-2">
             {title === "Изображение" ? (
               <>
-                <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
+                <button className="flex-1 py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm text-[#ffffff] bg-[#262233]">
                   <Icon name="Plus" size={16} />
                   Создать изображение
                 </button>
-                <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
+                <button className="flex-1 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
                   <Icon name="Edit" size={16} />
                   Редактировать
                 </button>
               </>
             ) : (
-              <button className="flex-1 bg-white bg-opacity-20 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm">
+              <button className="flex-1 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
                 <Icon name="Plus" size={16} />
                 Создать историю
               </button>
