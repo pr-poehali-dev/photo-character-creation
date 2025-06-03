@@ -131,29 +131,6 @@ const MainContent = () => {
             icon="Sparkles"
             actionText="Использовать"
           />
-          <ModelCard
-            title="Midjourney Style"
-            description="Художественный стиль генерации"
-            icon="Palette"
-            actionText="Использовать"
-          />
-          <ModelCard
-            title="DALL-E Style"
-            description="Креативные и уникальные изображения"
-            icon="Bot"
-            actionText="Использовать"
-          />
-          <ModelCard
-            title="Leonardo AI"
-            description="Профессиональные изображения"
-            icon="Crown"
-            actionText="Использовать"
-          />
-        </div>
-        <div className="flex justify-center mt-8">
-          <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
-            Больше
-          </button>
         </div>
       </div>
     </div>
