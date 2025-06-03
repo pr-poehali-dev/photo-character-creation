@@ -16,13 +16,7 @@ const QuickStartCard = ({
   badge,
 }: QuickStartCardProps) => {
   return (
-    <div className="bg-gray-800 rounded-xl p-4 cursor-pointer hover:bg-gray-700 transition-colors relative">
-      {badge && (
-        <div className="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded text-xs font-medium">
-          {badge}
-        </div>
-      )}
-
+    <div className="bg-gray-800 rounded-xl p-4 cursor-pointer hover:bg-gray-700 transition-colors">
       <div className="flex items-start gap-4">
         <div className={`p-2 rounded-lg ${color}`}>
           <Icon name={icon} size={20} className="text-white" />
