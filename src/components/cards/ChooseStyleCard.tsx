@@ -11,7 +11,7 @@ const ChooseStyleCard = () => {
           <Icon name="Palette" size={24} className="text-white" />
         </div>
 
-        <div className="flex-1 min-w-0">
+        <div className="flex flex-col justify-between h-[60px] flex-1 min-w-0">
           <h4 className="font-semibold text-white text-lg mb-0 leading-tight">
             Выберите стиль
           </h4>
