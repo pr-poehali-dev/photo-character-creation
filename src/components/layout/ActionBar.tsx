@@ -9,7 +9,7 @@ import {
 const ActionBar = () => {
   return (
     <div
-      className="border-b px-6 bg-[#262233] py-[7px]"
+      className="border-b px-6 bg-[#262233] py-2"
       style={{ borderBottomColor: "#374151" }}
     >
       <div className="flex items-center justify-end gap-4">
