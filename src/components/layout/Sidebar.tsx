@@ -18,7 +18,8 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`${isCollapsed ? "w-16" : "w-64"} bg-gray-900 text-white min-h-screen p-4 transition-all duration-300`}
+      className={`${isCollapsed ? "w-16" : "w-64"} text-white min-h-screen p-4 transition-all duration-300`}
+      style={{ backgroundColor: "#262233" }}
     >
       <div className="flex items-center gap-3 mb-8 mx-0 px-0">
         <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
