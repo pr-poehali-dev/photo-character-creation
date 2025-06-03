@@ -94,7 +94,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Удалить фон"
-            image="https://images.unsplash.com/photo-1541336032412-2048a678540d?w=400&h=250&fit=crop"
+            image="https://cdn.poehali.dev/files/1c373d64-04c2-44ac-83b5-45ab6c6afc94.jpg"
             size="small"
           />
         </div>
