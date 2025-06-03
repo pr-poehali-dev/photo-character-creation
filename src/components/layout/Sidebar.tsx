@@ -35,6 +35,7 @@ const Sidebar = () => {
       </div>
 
       <button
+        className="flex items-center justify-between px-3 py-2 cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4 bg-[#3352b847]"
         onClick={() => setIsCollapsed(!isCollapsed)}
         className="flex items-center justify-between px-3 py-2 cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4"
       >
