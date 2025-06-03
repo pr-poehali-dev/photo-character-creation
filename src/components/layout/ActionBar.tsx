@@ -14,7 +14,11 @@ const ActionBar = () => {
     >
       <div className="flex items-center justify-end gap-4">
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
-          <Icon name="Youtube" size={20} />
+          <img
+            src="https://cdn.poehali.dev/files/9ab99646-1b03-41c4-ba98-7b5c129c3e7b.png"
+            alt="YouTube"
+            className="w-5 h-5"
+          />
         </button>
         <button className="p-2 text-gray-600 hover:text-gray-900 transition-colors">
           <Icon name="MessageCircle" size={20} />
