@@ -48,7 +48,7 @@ const Sidebar = () => {
             key={index}
             className={`flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors ${
               item.active
-                ? "bg-blue-600 text-white"
+                ? "bg-purple-900/50 text-white border-l-2 border-purple-400"
                 : "text-gray-300 hover:bg-gray-800 hover:text-white"
             }`}
           >
