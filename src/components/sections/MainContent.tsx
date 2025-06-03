@@ -50,7 +50,7 @@ const MainContent = () => {
   ];
 
   return (
-    <div className="flex-1 bg-gray-900 p-8">
+    <div className="flex-1 p-8 bg-[#262233]">
       {/* Рекомендуемые приложения */}
       <div>
         <h2 className="text-2xl font-bold text-white mb-6">
