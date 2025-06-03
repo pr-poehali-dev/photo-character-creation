@@ -30,7 +30,7 @@ const QuickStartCard = ({
             {title}
           </h4>
           <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
-            Начните с того что нравится
+            {description}
           </p>
         </div>
       </div>
