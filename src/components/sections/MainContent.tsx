@@ -55,7 +55,7 @@ const MainContent = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
         <ToolCard
           title="Изображение"
-          icon=""
+          icon="ImageIcon"
           color="bg-gradient-to-br from-blue-500 to-blue-700"
           onClick={() => console.log("Открыть генератор изображений")}
         />
