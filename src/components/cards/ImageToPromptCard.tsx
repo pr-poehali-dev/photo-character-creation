@@ -16,7 +16,7 @@ const ImageToPromptCard = () => {
             Изображение в промпт
           </h4>
           <p className="text-blue-200/80 text-sm leading-relaxed mb-0">
-            Конвертируйте изображение в текстовый промпт
+            Конвертируйте изображение в промпт
           </p>
         </div>
       </div>
