@@ -45,9 +45,9 @@ const ToolCard = ({
 
         <div className="flex-1">
           <h3
-            className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
+            className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"} relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-orange-400 after:origin-bottom-right after:transition-transform after:duration-500 hover:after:scale-x-100 hover:after:origin-bottom-left`}
           >
-            {title}
+            📖 {title}
           </h3>
           {description && (
             <p className="text-white text-opacity-90 text-sm">{description}</p>
