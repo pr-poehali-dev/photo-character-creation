@@ -54,7 +54,7 @@ const MainContent = () => {
           onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
-          title="Storytelling"
+          title="Сторителлинг"
           icon="BookOpen"
           color="bg-gradient-to-br from-yellow-500 to-orange-600"
           badge="Генерация"
