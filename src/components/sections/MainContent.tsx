@@ -51,12 +51,15 @@ const MainContent = () => {
           title="Изображение"
           icon="ImageIcon"
           color="bg-gradient-to-br from-blue-500 to-blue-700"
+          onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
           title="Storytelling"
           icon="BookOpen"
           color="bg-gradient-to-br from-yellow-500 to-orange-600"
           badge="Генерация"
+          description="Создавайте увлекательные истории с помощью ИИ"
+          onClick={() => console.log("Открыть генератор историй")}
         />
       </div>
 

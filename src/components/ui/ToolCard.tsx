@@ -56,13 +56,15 @@ const ToolCard = ({
 
         {isLarge && (
           <div className="flex gap-2 mt-6">
-            <button className="flex-1 bg-black bg-opacity-30 text-white px-4 hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 py-0 rounded-lg text-sm">
+            <button className="flex-1 bg-black bg-opacity-30 text-white px-4 hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 py-3 rounded-lg text-sm">
               <Icon name="Plus" size={16} />
-              Создать изображение
+              {title === "Storytelling"
+                ? "Создать историю"
+                : "Создать изображение"}
             </button>
             <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 text-sm">
               <Icon name="Edit" size={16} />
-              Редактировать
+              {title === "Storytelling" ? "Мои истории" : "Редактировать"}
             </button>
           </div>
         )}
