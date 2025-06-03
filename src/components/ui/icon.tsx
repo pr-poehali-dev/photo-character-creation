@@ -24,6 +24,7 @@ import {
   Brush,
   CircleAlert,
   Play,
+  FolderOpen,
 } from "lucide-react";
 
 const iconMap = {
@@ -52,6 +53,7 @@ const iconMap = {
   Brush,
   CircleAlert,
   Play,
+  FolderOpen,
 };
 
 interface IconProps {
