@@ -61,7 +61,7 @@ const MainContent = () => {
         />
         <ToolCard
           title="Сторителлинг"
-          icon="BookOpen"
+          icon=""
           color="bg-gradient-to-br from-yellow-500 to-orange-600"
           badge="Генерация"
           onClick={() => console.log("Открыть генератор историй")}
