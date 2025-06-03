@@ -3,11 +3,13 @@ import Icon from "@/components/ui/icon";
 interface ToolCardProps {
   title: string;
   description?: string;
-  icon: string;
-  color: string;
+  icon?: string;
+  color?: string;
   size?: "small" | "large";
   badge?: string;
   onClick?: () => void;
+  image?: string;
+  author?: string;
 }
 
 const ToolCard = ({
@@ -18,9 +20,44 @@ const ToolCard = ({
   size = "large",
   badge,
   onClick,
+  image,
+  author,
 }: ToolCardProps) => {
   const isLarge = size === "large";
 
+  // Если есть изображение, используем новый дизайн с превью
+  if (image) {
+    return (
+      <div
+        className="bg-[#3D3849] rounded-xl overflow-hidden cursor-pointer transition-transform hover:scale-105 relative"
+        onClick={onClick}
+      >
+        {badge && (
+          <div className="absolute top-3 right-3 bg-green-500 text-white px-2 py-1 rounded-md text-xs font-medium z-10">
+            {badge}
+          </div>
+        )}
+
+        {/* Превью изображение */}
+        <div className="aspect-[16/10] relative overflow-hidden">
+          <img src={image} alt={title} className="w-full h-full object-cover" />
+        </div>
+
+        {/* Контент */}
+        <div className="p-4">
+          <h3 className="font-semibold text-white text-lg mb-1">{title}</h3>
+          {author && <p className="text-gray-400 text-sm mb-3">By {author}</p>}
+
+          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium">
+            <Icon name="Play" size={16} />
+            Run
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Старый дизайн для остальных карточек
   return (
     <div
       className={`${color} rounded-2xl p-6 cursor-pointer transition-transform hover:scale-105 relative overflow-hidden ${

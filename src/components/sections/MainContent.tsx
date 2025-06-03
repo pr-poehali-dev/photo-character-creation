@@ -63,38 +63,56 @@ const MainContent = () => {
         </div>
       </div>
 
-      {/* Рекомендуемые приложения */}
       <div>
-        <h2 className="text-2xl font-bold text-white mb-6">
-          Рекомендуемые приложения
-        </h2>
+        <h2 className="text-2xl font-bold text-white mb-6">Featured Apps</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ToolCard
-            title="AI Портреты"
-            description="Создавайте реалистичные портреты"
-            icon="User"
-            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
+            title="Image to Video"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=250&fit=crop"
+            badge="New"
             size="small"
           />
           <ToolCard
-            title="Фэнтези арт"
-            description="Магические существа и миры"
-            icon="Sparkles"
-            color="bg-gradient-to-br from-[#547CFF] to-pink-600"
+            title="Ultimate Upscale"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Аниме стиль"
-            description="Персонажи в стиле аниме"
-            icon="Heart"
-            color="bg-gradient-to-br from-pink-500 to-red-600"
+            title="AI Filters"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
-            title="Концепт арт"
-            description="Профессиональные концепты"
-            icon="Brush"
-            color="bg-gradient-to-br from-teal-500 to-green-600"
+            title="Sketch to Image"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop"
+            size="small"
+          />
+          <ToolCard
+            title="Blend Board"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?w=400&h=250&fit=crop"
+            size="small"
+          />
+          <ToolCard
+            title="Change Facial Expression"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
+            size="small"
+          />
+          <ToolCard
+            title="Expand"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop"
+            size="small"
+          />
+          <ToolCard
+            title="Remove background"
+            author="OpenArt"
+            image="https://images.unsplash.com/photo-1541336032412-2048a678540d?w=400&h=250&fit=crop"
             size="small"
           />
         </div>
