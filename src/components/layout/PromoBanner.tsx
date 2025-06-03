@@ -8,7 +8,7 @@ const PromoBanner = () => {
 
   return (
     <div className="bg-purple-600 text-white py-2 px-6 flex items-center justify-between text-sm">
-      <div className="flex items-center gap-2 flex-1 justify-center">
+      <div className="flex items-center flex-1 justify-center">
         <Icon
           name="Zap"
           size={16}
