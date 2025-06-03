@@ -74,7 +74,7 @@ const ToolCard = ({
             </button>
             <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 text-sm">
               <Icon name="Video" size={16} />
-              {title === "Изображение" ? "Превратить в видео" : "Мои истории"}
+              {title === "Изображение" ? "Редактировать" : "Мои истории"}
             </button>
           </div>
         )}
