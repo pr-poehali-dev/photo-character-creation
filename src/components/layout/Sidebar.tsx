@@ -52,14 +52,16 @@ const Sidebar = () => {
                 : "text-gray-300 hover:text-white"
             }`}
             style={{
-              backgroundColor: item.active ? "#547CFF" : undefined,
+              backgroundColor: item.active
+                ? "rgba(69, 65, 81, 0.8)"
+                : undefined,
               ":hover": !item.active
                 ? { backgroundColor: "#547CFF" }
                 : undefined,
             }}
             onMouseEnter={(e) => {
               if (!item.active) {
-                e.currentTarget.style.backgroundColor = "#547CFF";
+                e.currentTarget.style.backgroundColor = "rgba(69, 65, 81, 0.8)";
               }
             }}
             onMouseLeave={(e) => {
