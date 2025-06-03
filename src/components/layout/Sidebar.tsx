@@ -48,9 +48,25 @@ const Sidebar = () => {
             key={index}
             className={`flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors ${
               item.active
-                ? "bg-purple-900/50 text-white border-l-2 border-purple-400"
-                : "text-gray-300 hover:bg-gray-800 hover:text-white"
+                ? "text-white border-l-2"
+                : "text-gray-300 hover:text-white"
             }`}
+            style={{
+              backgroundColor: item.active ? "#547CFF" : undefined,
+              ":hover": !item.active
+                ? { backgroundColor: "#547CFF" }
+                : undefined,
+            }}
+            onMouseEnter={(e) => {
+              if (!item.active) {
+                e.currentTarget.style.backgroundColor = "#547CFF";
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (!item.active) {
+                e.currentTarget.style.backgroundColor = "";
+              }
+            }}
           >
             <Icon name={item.icon} size={20} />
             {!isCollapsed && (
