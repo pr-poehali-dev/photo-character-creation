@@ -7,8 +7,8 @@ const ExploreModelsCard = () => {
       style={{ backgroundColor: "#332D47" }}
     >
       <div className="flex items-start gap-4">
-        <div className="p-4 rounded-lg bg-purple-600 flex-shrink-0">
-          <Icon name="Bot" size={18} className="text-white" />
+        <div className="p-3 rounded-lg bg-purple-600 flex-shrink-0">
+          <Icon name="Bot" size={24} className="text-white" />
         </div>
 
         <div className="flex-1 min-w-0">
