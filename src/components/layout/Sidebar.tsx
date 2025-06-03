@@ -90,7 +90,7 @@ const Sidebar = () => {
             <p className="text-sm text-gray-400 mb-3">
               Управляйте вашими проектами
             </p>
-            <Icon name="FolderOpen" size={16} className="text-gray-400" />
+            <Icon name="Video" size={16} className="text-gray-400" />
           </div>
         </div>
       )}
