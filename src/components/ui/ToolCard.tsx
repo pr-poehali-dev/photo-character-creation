@@ -69,12 +69,14 @@ const ToolCard = ({
             <button className="flex-1 bg-black bg-opacity-30 text-white px-4 hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 py-3 rounded-lg text-sm">
               <Icon name="Plus" size={16} />
               {title === "Изображение"
-                ? "Создать изображение"
-                : "Создать историю"}
+                ? "Добавить изображение"
+                : "Добавить историю"}
             </button>
             <button className="flex-1 bg-black bg-opacity-30 text-white py-3 px-4 rounded-lg hover:bg-opacity-40 transition-colors flex items-center justify-center gap-2 text-sm">
               <Icon name="Video" size={16} />
-              {title === "Изображение" ? "Превратить в видео" : "Мои истории"}
+              {title === "Изображение"
+                ? "Превратить в видео"
+                : "Превратить в видео"}
             </button>
           </div>
         )}
