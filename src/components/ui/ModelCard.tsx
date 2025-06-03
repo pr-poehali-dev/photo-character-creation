@@ -55,8 +55,12 @@ const ModelCard = ({
       <div className="p-4">
         {/* Title and description */}
         <div className="mb-3">
-          <h3 className="text-white font-semibold text-base mb-1">{title}</h3>
-          <p className="text-gray-400 text-sm leading-relaxed">{description}</p>
+          <h3 className="text-white font-semibold text-base mb-1 leading-tight">
+            {title}
+          </h3>
+          <p className="text-gray-400 text-sm leading-relaxed mb-0">
+            {description}
+          </p>
         </div>
 
         {/* Tags */}

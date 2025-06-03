@@ -45,8 +45,14 @@ const ToolCard = ({
 
         {/* Контент */}
         <div className="p-4">
-          <h3 className="font-semibold text-white text-lg mb-1">{title}</h3>
-          {author && <p className="text-gray-400 text-sm mb-3">От {author}</p>}
+          <h3 className="font-semibold text-white text-lg mb-1 leading-tight">
+            {title}
+          </h3>
+          {author && (
+            <p className="text-gray-400 text-sm mb-3 leading-none">
+              От {author}
+            </p>
+          )}
 
           <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium">
             <Icon name="Play" size={16} />
@@ -75,12 +81,12 @@ const ToolCard = ({
         <div className="flex-1">
           <div className={icon ? "mt-2" : "mt-0"}>
             <h3
-              className={`font-bold text-white mb-2 ${isLarge ? "text-2xl" : "text-lg"}`}
+              className={`font-bold text-white mb-2 leading-tight ${isLarge ? "text-2xl" : "text-lg"}`}
             >
               {title}
             </h3>
             {description && (
-              <p className="text-white text-opacity-90 text-sm">
+              <p className="text-white text-opacity-90 text-sm mb-0 leading-relaxed">
                 {description}
               </p>
             )}
