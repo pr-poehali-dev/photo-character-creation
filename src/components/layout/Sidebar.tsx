@@ -85,7 +85,7 @@ const Sidebar = () => {
 
       {!isCollapsed && (
         <div className="mt-auto pt-8">
-          <div className="bg-gray-800 rounded-lg p-4">
+          <div className="rounded-lg p-4 bg-[#332D47]">
             <h4 className="font-semibold mb-2">Мои работы</h4>
             <p className="text-sm text-gray-400 mb-3">
               Управляйте вашими проектами
