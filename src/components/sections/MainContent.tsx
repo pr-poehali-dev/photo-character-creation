@@ -58,50 +58,42 @@ const MainContent = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <ToolCard
             title="Изображение в видео"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=250&fit=crop"
             badge="Новое"
             size="small"
           />
           <ToolCard
             title="Улучшение качества"
-            author="OpenArt"
             image="https://cdn.poehali.dev/files/8136f7b2-0589-4246-80e2-6ff4f306206c.jpg"
             size="small"
           />
           <ToolCard
             title="ИИ фильтры"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
             title="Скетч в изображение"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
             title="Доска смешивания"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
             title="Изменить выражение лица"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
             title="Расширить"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
             title="Удалить фон"
-            author="OpenArt"
             image="https://images.unsplash.com/photo-1541336032412-2048a678540d?w=400&h=250&fit=crop"
             size="small"
           />
