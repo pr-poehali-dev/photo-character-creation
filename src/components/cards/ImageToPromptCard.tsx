@@ -8,7 +8,7 @@ const ImageToPromptCard = () => {
     >
       <div className="flex items-start gap-4">
         <div className="p-4 rounded-lg bg-teal-600 flex-shrink-0">
-          <Icon name="FileText" size={24} className="text-white" />
+          <Icon name="FileText" size={18} className="text-white" />
         </div>
 
         <div className="flex-1 min-w-0">

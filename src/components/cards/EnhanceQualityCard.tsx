@@ -8,7 +8,7 @@ const EnhanceQualityCard = () => {
     >
       <div className="flex items-start gap-4">
         <div className="p-4 rounded-lg bg-orange-600 flex-shrink-0">
-          <Icon name="Zap" size={24} className="text-white" />
+          <Icon name="Zap" size={18} className="text-white" />
         </div>
 
         <div className="flex-1 min-w-0">

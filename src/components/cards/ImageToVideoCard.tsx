@@ -8,7 +8,7 @@ const ImageToVideoCard = () => {
     >
       <div className="flex items-start gap-4">
         <div className="p-4 rounded-lg bg-yellow-600 flex-shrink-0">
-          <Icon name="Play" size={24} className="text-white" />
+          <Icon name="Play" size={18} className="text-white" />
         </div>
 
         <div className="flex-1 min-w-0">
