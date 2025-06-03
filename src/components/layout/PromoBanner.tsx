@@ -15,7 +15,7 @@ const PromoBanner = () => {
           className="text-yellow-400 fill-yellow-400 drop-shadow-sm"
           style={{ filter: "drop-shadow(0 0 4px rgba(251, 191, 36, 0.6))" }}
         />
-        <span className="text-center py-1 text-sm px-[78px] font-normal">
+        <span className="text-center px-[121px] py-1 font-normal">
           ⚡ Предложение ограничено! Откройте для себя год безграничных
           возможностей для творчества со всеми годовыми планами со скидкой 50%.
         </span>
