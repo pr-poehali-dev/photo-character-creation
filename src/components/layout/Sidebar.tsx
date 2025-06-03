@@ -35,7 +35,6 @@ const Sidebar = () => {
       </div>
 
       <button
-        className="flex items-center justify-between px-3 py-2 cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4 bg-[#3352b847]"
         onClick={() => setIsCollapsed(!isCollapsed)}
         className="flex items-center justify-between px-3 py-2 cursor-pointer transition-colors text-gray-300 hover:bg-gray-800 hover:text-white mb-4 w-full border-t border-b border-gray-700 mt-4"
       >
@@ -86,7 +85,7 @@ const Sidebar = () => {
 
       {!isCollapsed && (
         <div className="mt-auto pt-8">
-          <div className="rounded-lg p-4 bg-[#332D47]">
+          <div className="bg-gray-800 rounded-lg p-4">
             <h4 className="font-semibold mb-2">Мои работы</h4>
             <p className="text-sm text-gray-400 mb-3">
               Управляйте вашими проектами
