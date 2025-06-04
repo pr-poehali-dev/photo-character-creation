@@ -27,6 +27,7 @@ const Sidebar = () => {
             src="https://cdn.poehali.dev/files/cbfcfd9c-1b19-4f61-8336-442c50974aef.png"
             alt="Контент AI"
             className="w-full h-full object-cover"
+            style={{ filter: "brightness(0) invert(1)" }}
           />
         </div>
         {!isCollapsed && (
