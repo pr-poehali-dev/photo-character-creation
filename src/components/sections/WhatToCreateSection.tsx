@@ -9,9 +9,8 @@ const WhatToCreateSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <ToolCard
           title="Изображение"
-          icon=""
+          icon="Image"
           color="bg-gradient-to-br from-[#547CFF] to-[#4267CC]"
-          image="https://cdn.poehali.dev/files/d633a359-125b-45b3-9fc2-d22c1765b82f.jpg"
           onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
