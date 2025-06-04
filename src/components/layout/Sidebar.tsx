@@ -69,7 +69,7 @@ const Sidebar = () => {
               }
             }}
           >
-            <Icon name={item.icon} size={isCollapsed ? 32 : 20} />
+            <Icon name={item.icon} size={isCollapsed ? 36 : 20} />
             {!isCollapsed && (
               <>
                 <span className="text-sm font-medium">{item.label}</span>
