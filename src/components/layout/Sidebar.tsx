@@ -21,7 +21,7 @@ const Sidebar = () => {
       className={`${isCollapsed ? "w-20" : "w-64"} text-white min-h-screen p-4 transition-all duration-300 border-r`}
       style={{ backgroundColor: "#1E1B2A", borderRightColor: "#374151" }}
     >
-      <div className="flex items-center gap-3 mb-8 mx-0 px-3">
+      <div className="flex items-center gap-3 mb-8 mx-0 px-[7px]">
         <div className="w-8 h-8 rounded-full flex items-center justify-center overflow-hidden flex-shrink-0">
           <img
             src="https://cdn.poehali.dev/files/cbfcfd9c-1b19-4f61-8336-442c50974aef.png"
