@@ -79,7 +79,7 @@ const ActionBar = () => {
           <Icon name="Plus" size={16} />
           Создать
         </button>
-        <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-[#1f2937]/82 active:bg-[#1f2937]/82 hover:text-white active:text-white hover:border-[#1f2937]/82 active:border-[#1f2937]/82 transition-colors">
+        <button className="border border-gray-300 px-4 py-2 rounded-lg text-white transition-colors hover:bg-[#1f2937] hover:border-[#1f2937] active:bg-[#1f2937] active:border-[#1f2937]">
           Войти
         </button>
       </div>
