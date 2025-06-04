@@ -1,4 +1,5 @@
 import Icon from "@/components/ui/icon";
+import QuickStartCard from "@/components/ui/QuickStartCard";
 
 const CreateImageCard = () => {
   return (
