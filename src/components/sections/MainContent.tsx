@@ -90,7 +90,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Расширить"
-            image="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop"
+            image="https://cdn.poehali.dev/files/24fda29b-13b1-4094-ac3e-8fb1d852ed7f.jpg"
             size="small"
           />
           <ToolCard
