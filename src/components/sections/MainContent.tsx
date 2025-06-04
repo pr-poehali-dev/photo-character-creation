@@ -106,49 +106,36 @@ const MainContent = () => {
         </div>
       </div>
 
+      {/* Выберите модель секция */}
       <div className="mt-12">
         <h2 className="text-2xl font-bold text-white mb-6">Выберите модель</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <ModelCard
-            title="FLUX.1 [dev]"
-            description="Открытая модель генерации изображений"
-            image="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
-            tags={["Flux", "Открытая", "Популярная"]}
+            title="Обучить свою модель"
+            description="Настройте свою креативность"
+            hasPlus={true}
+            isPro={true}
+            actionText="Создать"
+          />
+          <ModelCard
+            title="FLUX.1 [schnell]"
+            description="Быстрая генерация изображений"
+            image="https://cdn.poehali.dev/files/6851a32c-5312-44f4-bd1f-4d75a2617dbd.png"
+            actionText="Использовать"
+            tags={["Flux", "Standard"]}
           />
           <ModelCard
             title="Stable Diffusion XL"
-            description="Мощная модель для детализированных изображений"
-            image="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=250&fit=crop"
-            tags={["SDXL", "Детали"]}
-          />
-          <ModelCard
-            title="Flux Realism"
-            description="Специализированная модель для фотореалистичных изображений"
-            image="https://cdn.poehali.dev/files/c1f6b7a3-d3ae-4a68-a2c9-c81bbfd563e0.png"
-            tags={["Flux", "Фотореализм", "Популярная"]}
-          />
-          <ModelCard
-            title="Midjourney Style"
-            description="Художественный стиль как в Midjourney"
-            hasPlus={true}
-            tags={["Арт", "Стиль"]}
+            description="Высокое качество и детализация"
+            icon="Sparkles"
+            actionText="Использовать"
+            tags={["SDXL", "Quality", "Popular"]}
           />
         </div>
-      </div>
-
-      <div className="mt-12">
-        <h2 className="text-2xl font-bold text-white mb-6">Быстрый старт</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {quickStartItems.map((item, index) => (
-            <QuickStartCard
-              key={index}
-              title={item.title}
-              description={item.description}
-              icon={item.icon}
-              color={item.color}
-              badge={item.badge}
-            />
-          ))}
+        <div className="flex justify-center mt-8">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg text-white font-medium transition-colors hover:bg-[rgba(31,41,55,0.82)] hover:border-gray-300 active:bg-[rgba(31,41,55,0.82)] active:border-gray-300">
+            Показать все модели
+          </button>
         </div>
       </div>
     </div>
