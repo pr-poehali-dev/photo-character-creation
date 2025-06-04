@@ -65,7 +65,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Улучшение качества"
-            image="https://cdn.poehali.dev/files/8136f7b2-0589-4246-80e2-6ff4f306206c.jpg"
+            image="https://cdn.poehali.dev/files/3f7227e9-83d8-4853-b4df-2790d0a68a01.jpg"
             size="small"
           />
           <ToolCard
