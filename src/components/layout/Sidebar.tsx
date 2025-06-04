@@ -75,7 +75,7 @@ const Sidebar = () => {
                 <span className="text-sm font-medium">{item.label}</span>
                 {item.badge && (
                   <span className="ml-auto bg-green-500 text-xs px-2 py-0.5 rounded-full">
-                    {item.badge}
+                    Новое
                   </span>
                 )}
               </>
