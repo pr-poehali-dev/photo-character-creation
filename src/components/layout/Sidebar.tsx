@@ -10,6 +10,7 @@ import {
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isMyWorksExpanded, setIsMyWorksExpanded] = useState(false);
+  const [isResourcesExpanded, setIsResourcesExpanded] = useState(false);
   const menuItems = [
     { icon: "Home", label: "Главная", active: true },
     { icon: "Users", label: "Персонажи", badge: "NEW" },
@@ -129,6 +130,55 @@ const Sidebar = () => {
                 <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
                   <Icon name="Settings" size={16} />
                   <span className="text-sm">Обученные модели</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {!isCollapsed && (
+        <div className="mt-4">
+          <div>
+            <button
+              className="flex items-center justify-between w-full rounded-lg p-4 bg-[#3D3949] hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer"
+              onClick={() => setIsResourcesExpanded(!isResourcesExpanded)}
+            >
+              <div className="flex items-center gap-3">
+                <span className="font-semibold">Ресурсы</span>
+              </div>
+              <Icon
+                name="ChevronRight"
+                size={16}
+                className={`text-gray-400 transition-transform ${isResourcesExpanded ? "rotate-90" : ""}`}
+              />
+            </button>
+
+            {isResourcesExpanded && (
+              <div className="mt-2 space-y-1 pl-4">
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="BookOpen" size={16} />
+                  <span className="text-sm">Уроки</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="HelpCircle" size={16} />
+                  <span className="text-sm">Wiki</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="LifeBuoy" size={16} />
+                  <span className="text-sm">Центр помощи</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Sparkles" size={16} />
+                  <span className="text-sm">Что нового</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Palette" size={16} />
+                  <span className="text-sm">Галерея тем</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="FileText" size={16} />
+                  <span className="text-sm">Блог</span>
                 </div>
               </div>
             )}
