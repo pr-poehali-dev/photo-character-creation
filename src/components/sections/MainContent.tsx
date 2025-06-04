@@ -29,8 +29,6 @@ const MainContent = () => {
       description: "Создайте изображения из промптов",
       icon: "",
       color: "bg-pink-600",
-      image:
-        "https://cdn.poehali.dev/files/d633a359-125b-45b3-9fc2-d22c1765b82f.jpg",
     },
     {
       title: "Улучшить качество",
