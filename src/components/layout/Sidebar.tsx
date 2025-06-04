@@ -22,10 +22,12 @@ const Sidebar = () => {
       style={{ backgroundColor: "#1E1B2A", borderRightColor: "#374151" }}
     >
       <div className="flex items-center gap-3 mb-8 mx-0 px-0">
-        <div className="w-6 h-6 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
-          <div className="w-full h-full bg-gradient-to-br from-purple-500 to-indigo-600 rounded-md flex items-center justify-center">
-            <Icon name="Sparkles" size={16} className="text-white" />
-          </div>
+        <div className="w-8 h-8 rounded-full flex items-center justify-center overflow-hidden flex-shrink-0">
+          <img
+            src="https://cdn.poehali.dev/files/cbfcfd9c-1b19-4f61-8336-442c50974aef.png"
+            alt="Контент AI"
+            className="w-full h-full object-cover"
+          />
         </div>
         {!isCollapsed && (
           <span className="py-0 text-xl font-medium">Контент AI</span>
