@@ -75,7 +75,7 @@ const ActionBar = () => {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-        <button className="text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 bg-[#3452b8]">
+        <button className="text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 bg-[#3861d3]">
           <Icon name="Plus" size={16} />
           Создать
         </button>
