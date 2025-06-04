@@ -9,6 +9,7 @@ import {
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isMyWorksExpanded, setIsMyWorksExpanded] = useState(false);
   const menuItems = [
     { icon: "Home", label: "Главная", active: true },
     { icon: "Users", label: "Персонажи", badge: "NEW" },
@@ -92,38 +93,46 @@ const Sidebar = () => {
 
       {!isCollapsed && (
         <div className="mt-auto pt-8">
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <button className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer">
-                <div className="flex items-center gap-3">
-                  <span className="font-semibold">Мои работы</span>
+          <div>
+            <button
+              onClick={() => setIsMyWorksExpanded(!isMyWorksExpanded)}
+              className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer"
+            >
+              <div className="flex items-center gap-3">
+                <span className="font-semibold">Мои работы</span>
+              </div>
+              <Icon
+                name="ChevronDown"
+                size={16}
+                className={`text-gray-400 transition-transform ${isMyWorksExpanded ? "rotate-180" : ""}`}
+              />
+            </button>
+
+            {isMyWorksExpanded && (
+              <div className="mt-2 space-y-1 pl-4">
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Clock" size={16} />
+                  <span className="text-sm">История создания</span>
                 </div>
-                <Icon name="ChevronRight" size={16} className="text-gray-400" />
-              </button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-56 bg-[#1E1B2A] border-gray-700">
-              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
-                <Icon name="Clock" size={16} />
-                <span>История создания</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
-                <Icon name="Bookmark" size={16} />
-                <span>Закладки</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
-                <Icon name="Heart" size={16} />
-                <span>Понравилось</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
-                <Icon name="FolderOpen" size={16} />
-                <span>Сохраненные альбомы</span>
-              </DropdownMenuItem>
-              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
-                <Icon name="Settings" size={16} />
-                <span>Обученные модели</span>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Bookmark" size={16} />
+                  <span className="text-sm">Закладки</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Heart" size={16} />
+                  <span className="text-sm">Понравилось</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="FolderOpen" size={16} />
+                  <span className="text-sm">Сохраненные альбомы</span>
+                </div>
+                <div className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg cursor-pointer transition-colors">
+                  <Icon name="Settings" size={16} />
+                  <span className="text-sm">Обученные модели</span>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       )}
     </div>
