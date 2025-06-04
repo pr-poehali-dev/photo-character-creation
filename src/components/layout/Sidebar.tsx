@@ -95,9 +95,8 @@ const Sidebar = () => {
         <div className="mt-auto pt-8">
           <div>
             <button
-              className="flex items-center justify-between w-full rounded-lg p-4 hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer bg-[#3D3949]"
+              className="flex items-center justify-between w-full rounded-lg p-4 bg-[#3D3949] hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer"
               onClick={() => setIsMyWorksExpanded(!isMyWorksExpanded)}
-              className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-3">
                 <span className="font-semibold">Мои работы</span>
