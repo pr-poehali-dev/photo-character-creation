@@ -47,7 +47,7 @@ const Sidebar = () => {
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className={`flex items-center gap-3 px-3 ${isCollapsed ? "py-4" : "py-2"} rounded-lg cursor-pointer transition-colors ${
+            className={`flex items-center justify-center gap-3 px-3 ${isCollapsed ? "py-3" : "py-2"} rounded-lg cursor-pointer transition-colors ${
               item.active ? "text-white" : "text-gray-300 hover:text-white"
             }`}
             style={{
