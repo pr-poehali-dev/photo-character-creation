@@ -9,13 +9,13 @@ const WhatToCreateSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <ToolCard
           title="Изображение"
-          icon=""
+          icon="Image"
           color="bg-gradient-to-br from-[#547CFF] to-[#4267CC]"
           onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
           title="Сторителлинг"
-          icon=""
+          icon="BookOpen"
           color="bg-[#FF8254]"
           onClick={() => console.log("Открыть генератор историй")}
         />

@@ -40,11 +40,7 @@ const ToolCard = ({
 
         {/* Превью изображение */}
         <div className="aspect-[16/10] relative overflow-hidden">
-          <img
-            src="https://cdn.poehali.dev/files/cb4306e0-6549-4908-9adb-06296f848079.jpg"
-            alt={title}
-            className="w-full h-full object-cover"
-          />
+          <img src={image} alt={title} className="w-full h-full object-cover" />
         </div>
 
         {/* Контент */}
