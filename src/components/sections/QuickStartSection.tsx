@@ -7,9 +7,11 @@ import ImageToPromptCard from "@/components/cards/ImageToPromptCard";
 
 const QuickStartSection = () => {
   return (
-    <div className="px-8 py-6 bg-[#262233]">
-      <h2 className="text-2xl font-bold text-white mb-6">Быстрый старт</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="px-4 lg:px-8 py-4 lg:py-6 bg-[#262233]">
+      <h2 className="text-xl lg:text-2xl font-bold text-white mb-4 lg:mb-6">
+        Быстрый старт
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4">
         <ImageToVideoCard />
         <ChooseStyleCard />
         <ExploreModelsCard />

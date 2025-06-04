@@ -44,17 +44,17 @@ const ToolCard = ({
         </div>
 
         {/* Контент */}
-        <div className="p-4">
-          <h3 className="font-semibold text-white text-lg mb-1 leading-tight">
+        <div className="p-3 lg:p-4">
+          <h3 className="font-semibold text-white text-base lg:text-lg mb-1 leading-tight">
             {title}
           </h3>
           {author && (
-            <p className="text-gray-400 text-sm mb-3 leading-none">
+            <p className="text-gray-400 text-sm mb-2 lg:mb-3 leading-none">
               От {author}
             </p>
           )}
 
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium mt-[10px]">
+          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium mt-2 lg:mt-[10px]">
             <Icon name="Play" size={16} />
             Запустить
           </button>
@@ -66,8 +66,10 @@ const ToolCard = ({
   // Старый дизайн для остальных карточек
   return (
     <div
-      className={`${color} rounded-2xl p-6 cursor-pointer transition-transform hover:scale-105 relative overflow-hidden ${
-        isLarge ? "min-h-[200px]" : "min-h-[120px]"
+      className={`${color} rounded-xl lg:rounded-2xl p-4 lg:p-6 cursor-pointer transition-transform hover:scale-105 relative overflow-hidden ${
+        isLarge
+          ? "min-h-[160px] lg:min-h-[200px]"
+          : "min-h-[100px] lg:min-h-[120px]"
       }`}
       onClick={onClick}
     >
@@ -81,12 +83,12 @@ const ToolCard = ({
         <div className="flex-1">
           <div className={icon ? "mt-2" : "mt-0"}>
             <h3
-              className={`font-bold text-white mb-2 leading-tight ${isLarge ? "text-2xl" : "text-lg"}`}
+              className={`font-bold text-white mb-2 leading-tight ${isLarge ? "text-lg lg:text-2xl" : "text-base lg:text-lg"}`}
             >
               {title}
             </h3>
             {description && (
-              <p className="text-white text-opacity-90 text-sm mb-0 leading-relaxed">
+              <p className="text-white text-opacity-90 text-sm leading-relaxed mb-0">
                 {description}
               </p>
             )}
@@ -94,13 +96,13 @@ const ToolCard = ({
         </div>
 
         {icon && icon.trim() && (
-          <div className="mb-4">
+          <div className={`mb-2 lg:mb-4`}>
             <div
-              className={`inline-flex p-3 rounded-xl bg-white bg-opacity-20 ${isLarge ? "mb-4" : "mb-2"}`}
+              className={`inline-flex p-2 lg:p-3 rounded-lg lg:rounded-xl bg-white bg-opacity-20 ${isLarge ? "mb-2 lg:mb-4" : "mb-1 lg:mb-2"}`}
             >
               <Icon
                 name={icon}
-                size={isLarge ? 32 : 24}
+                size={isLarge ? 24 : 20}
                 className="text-white"
               />
             </div>
@@ -108,22 +110,24 @@ const ToolCard = ({
         )}
 
         {isLarge && (
-          <div className="flex gap-2 mt-[10px]">
+          <div className="flex flex-col sm:flex-row gap-2 mt-2 lg:mt-[10px]">
             {title === "Изображение" ? (
               <>
-                <button className="flex-1 py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm text-[#ffffff] bg-[#262233]">
+                <button className="flex-1 py-2 lg:py-3 px-3 lg:px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm text-[#ffffff] bg-[#262233]">
                   <Icon name="Plus" size={16} />
-                  Создать изображение
+                  <span className="hidden sm:inline">Создать изображение</span>
+                  <span className="sm:hidden">Создать</span>
                 </button>
-                <button className="flex-1 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
+                <button className="flex-1 text-white py-2 lg:py-3 px-3 lg:px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
                   <Icon name="Edit" size={16} />
                   Редактировать
                 </button>
               </>
             ) : (
-              <button className="flex-1 text-white py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
+              <button className="flex-1 text-white py-2 lg:py-3 px-3 lg:px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm bg-[#262233]">
                 <Icon name="Plus" size={16} />
-                Создать историю
+                <span className="hidden sm:inline">Создать историю</span>
+                <span className="sm:hidden">Создать</span>
               </button>
             )}
           </div>

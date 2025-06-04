@@ -51,12 +51,12 @@ const MainContent = () => {
   ];
 
   return (
-    <div className="flex-1 p-8 bg-[#262233]">
+    <div className="flex-1 p-4 lg:p-8 bg-[#262233]">
       <div>
-        <h2 className="text-2xl font-bold text-white mb-6">
+        <h2 className="text-xl lg:text-2xl font-bold text-white mb-4 lg:mb-6">
           Рекомендуемые приложения
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
           <ToolCard
             title="Изображение в видео"
             image="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=250&fit=crop"
@@ -99,17 +99,19 @@ const MainContent = () => {
             size="small"
           />
         </div>
-        <div className="flex justify-center mt-8">
-          <button className="border border-gray-300 px-4 py-2 rounded-lg text-white font-medium transition-colors hover:bg-[rgba(31,41,55,0.82)] hover:border-gray-300 active:bg-[rgba(31,41,55,0.82)] active:border-gray-300">
+        <div className="flex justify-center mt-6 lg:mt-8">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg text-white font-medium transition-colors hover:bg-[rgba(31,41,55,0.82)] hover:border-gray-300 active:bg-[rgba(31,41,55,0.82)] active:border-gray-300 text-sm lg:text-base">
             Смотреть все
           </button>
         </div>
       </div>
 
       {/* Выберите модель секция */}
-      <div className="mt-12">
-        <h2 className="text-2xl font-bold text-white mb-6">Выберите модель</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mt-8 lg:mt-12">
+        <h2 className="text-xl lg:text-2xl font-bold text-white mb-4 lg:mb-6">
+          Выберите модель
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
           <ModelCard
             title="Обучить свою модель"
             description="Настройте свою креативность"
@@ -132,8 +134,8 @@ const MainContent = () => {
             tags={["Flux", "Фотореализм", "Популярная"]}
           />
         </div>
-        <div className="flex justify-center mt-8">
-          <button className="border border-gray-300 px-4 py-2 rounded-lg text-white font-medium transition-colors hover:bg-[rgba(31,41,55,0.82)] hover:border-gray-300 active:bg-[rgba(31,41,55,0.82)] active:border-gray-300">
+        <div className="flex justify-center mt-6 lg:mt-8">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg text-white font-medium transition-colors hover:bg-[rgba(31,41,55,0.82)] hover:border-gray-300 active:bg-[rgba(31,41,55,0.82)] active:border-gray-300 text-sm lg:text-base">
             Показать все модели
           </button>
         </div>
