@@ -127,7 +127,7 @@ const MainContent = () => {
           <ModelCard
             title="Stable Diffusion XL"
             description="Высокое качество и детализация"
-            icon="Sparkles"
+            image="https://cdn.poehali.dev/files/d77e630a-80f6-4b30-a9c4-9266698daa2d.png"
             actionText="Использовать"
             tags={["SDXL", "Quality", "Popular"]}
           />
