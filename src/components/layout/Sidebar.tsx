@@ -99,13 +99,12 @@ const Sidebar = () => {
               className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer"
             >
               <div className="flex items-center gap-3">
-                <Icon name="Folder" size={20} />
                 <span className="font-semibold">Мои работы</span>
               </div>
               <Icon
-                name="ChevronDown"
+                name="ChevronRight"
                 size={16}
-                className={`text-gray-400 transition-transform ${isMyWorksExpanded ? "rotate-180" : ""}`}
+                className={`text-gray-400 transition-transform ${isMyWorksExpanded ? "rotate-90" : ""}`}
               />
             </button>
 
