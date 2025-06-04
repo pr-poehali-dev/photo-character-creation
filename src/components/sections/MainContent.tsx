@@ -125,11 +125,11 @@ const MainContent = () => {
             tags={["Flux", "Standard"]}
           />
           <ModelCard
-            title="Stable Diffusion XL"
+            title="Flux Realism"
             description="Высокое качество и детализация"
             image="https://cdn.poehali.dev/files/d77e630a-80f6-4b30-a9c4-9266698daa2d.png"
             actionText="Использовать"
-            tags={["SDXL", "Quality", "Popular"]}
+            tags={["Flux", "Фотореализм", "Популярная"]}
           />
         </div>
         <div className="flex justify-center mt-8">
