@@ -18,8 +18,11 @@ const ActionBar = ({ onMobileMenuToggle }: ActionBarProps) => {
     >
       <div className="flex items-center justify-between lg:justify-end gap-4">
         {/* Мобильное меню гамбургер */}
-        <button className="lg:hidden" onClick={onMobileMenuToggle}>
-          <Icon name="Menu" size={24} className="text-white" />
+        <button
+          className="lg:hidden text-white hover:text-gray-300 transition-colors"
+          onClick={onMobileMenuToggle}
+        >
+          <Icon name="Menu" size={24} />
         </button>
 
         <div className="flex items-center gap-2 lg:gap-4">
