@@ -54,7 +54,7 @@ const ToolCard = ({
             </p>
           )}
 
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium">
+          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm font-medium mt-[10px]">
             <Icon name="Play" size={16} />
             Запустить
           </button>
@@ -108,7 +108,7 @@ const ToolCard = ({
         )}
 
         {isLarge && (
-          <div className="flex gap-2">
+          <div className="flex gap-2 mt-[10px]">
             {title === "Изображение" ? (
               <>
                 <button className="flex-1 py-3 px-4 rounded-lg hover:bg-opacity-30 transition-colors flex items-center justify-center gap-2 text-sm text-[#ffffff] bg-[#262233]">

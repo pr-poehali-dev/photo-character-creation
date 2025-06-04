@@ -82,7 +82,7 @@ const ModelCard = ({
         )}
 
         {/* Action buttons */}
-        <div className="flex gap-2 mt-auto">
+        <div className="flex gap-2 mt-auto pt-[10px]">
           <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium text-sm">
             {actionText}
           </button>
