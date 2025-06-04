@@ -33,16 +33,43 @@ const ActionBar = () => {
               <Icon name="HelpCircle" size={20} />
             </button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent align="end" className="w-48">
-            <DropdownMenuItem className="cursor-pointer">
+          <DropdownMenuContent
+            align="end"
+            className="w-48 bg-[#262233] border-gray-700"
+          >
+            <DropdownMenuItem
+              className="cursor-pointer text-gray-300 hover:text-white transition-colors focus:bg-[rgba(69,65,81,0.8)] focus:text-white"
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "rgba(69, 65, 81, 0.8)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "";
+              }}
+            >
               <Icon name="MessageSquare" size={16} className="mr-2" />
               Фидбэк
             </DropdownMenuItem>
-            <DropdownMenuItem className="cursor-pointer">
+            <DropdownMenuItem
+              className="cursor-pointer text-gray-300 hover:text-white transition-colors focus:bg-[rgba(69,65,81,0.8)] focus:text-white"
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "rgba(69, 65, 81, 0.8)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "";
+              }}
+            >
               <Icon name="HelpCircle" size={16} className="mr-2" />
               Помощь
             </DropdownMenuItem>
-            <DropdownMenuItem className="cursor-pointer">
+            <DropdownMenuItem
+              className="cursor-pointer text-gray-300 hover:text-white transition-colors focus:bg-[rgba(69,65,81,0.8)] focus:text-white"
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "rgba(69, 65, 81, 0.8)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "";
+              }}
+            >
               <Icon name="BookOpen" size={16} className="mr-2" />
               Инструкции
             </DropdownMenuItem>
