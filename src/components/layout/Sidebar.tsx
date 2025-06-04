@@ -95,6 +95,7 @@ const Sidebar = () => {
         <div className="mt-auto pt-8">
           <div>
             <button
+              className="flex items-center justify-between w-full rounded-lg p-4 hover:bg-[#3d3454] transition-colors cursor-pointer bg-[#3D3949]"
               onClick={() => setIsMyWorksExpanded(!isMyWorksExpanded)}
               className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer"
             >
