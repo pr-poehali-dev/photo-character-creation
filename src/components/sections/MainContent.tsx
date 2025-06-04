@@ -75,7 +75,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Скетч в изображение"
-            image="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop"
+            image="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=250&fit=crop"
             size="small"
           />
           <ToolCard
