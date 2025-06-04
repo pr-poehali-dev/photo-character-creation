@@ -18,7 +18,7 @@ const Sidebar = () => {
 
   return (
     <div
-      className={`${isCollapsed ? "w-16" : "w-64"} text-white min-h-screen p-4 transition-all duration-300 border-r`}
+      className={`${isCollapsed ? "w-20" : "w-64"} text-white min-h-screen p-4 transition-all duration-300 border-r`}
       style={{ backgroundColor: "#1E1B2A", borderRightColor: "#374151" }}
     >
       <div className="flex items-center gap-3 mb-8 mx-0 px-0">
@@ -47,7 +47,7 @@ const Sidebar = () => {
         {menuItems.map((item, index) => (
           <div
             key={index}
-            className={`flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer transition-colors ${
+            className={`flex items-center gap-3 px-3 ${isCollapsed ? "py-4" : "py-2"} rounded-lg cursor-pointer transition-colors ${
               item.active ? "text-white" : "text-gray-300 hover:text-white"
             }`}
             style={{
@@ -69,7 +69,7 @@ const Sidebar = () => {
               }
             }}
           >
-            <Icon name={item.icon} size={isCollapsed ? 36 : 20} />
+            <Icon name={item.icon} size={isCollapsed ? 56 : 20} />
             {!isCollapsed && (
               <>
                 <span className="text-sm font-medium">{item.label}</span>
