@@ -80,7 +80,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Доска смешивания"
-            image="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?w=400&h=250&fit=crop"
+            image="https://cdn.poehali.dev/files/ec8be7e9-acbf-42aa-9636-e473293ac6c9.jpg"
             size="small"
           />
           <ToolCard
