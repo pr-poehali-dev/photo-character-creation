@@ -30,7 +30,7 @@ const ActionBar = () => {
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <button className="p-2 text-gray-300 hover:text-gray-500 transition-colors mr-1">
-              <Icon name="MoreVertical" size={20} />
+              <Icon name="HelpCircle" size={20} />
             </button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" className="w-48">
