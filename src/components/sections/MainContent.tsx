@@ -75,7 +75,7 @@ const MainContent = () => {
           />
           <ToolCard
             title="Скетч в изображение"
-            image="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=250&fit=crop"
+            image="https://cdn.poehali.dev/files/57f23569-705b-4749-8f47-2501d0fad29e.jpg"
             size="small"
           />
           <ToolCard
