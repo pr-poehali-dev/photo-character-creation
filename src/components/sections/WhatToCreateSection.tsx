@@ -15,7 +15,7 @@ const WhatToCreateSection = () => {
         />
         <ToolCard
           title="Сторителлинг"
-          icon=""
+          icon="BookOpen"
           color="bg-[#FF8254]"
           onClick={() => console.log("Открыть генератор историй")}
         />
