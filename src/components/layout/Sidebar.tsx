@@ -141,7 +141,7 @@ const Sidebar = () => {
         <div className="mt-4">
           <div>
             <button
-              className="flex items-center justify-between w-full rounded-lg p-4 bg-[#3D3949] hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer"
+              className="flex items-center justify-between w-full rounded-lg p-4 hover:bg-[rgba(69,65,81,0.8)] transition-colors cursor-pointer bg-[#1E1B2A]"
               onClick={() => setIsResourcesExpanded(!isResourcesExpanded)}
             >
               <div className="flex items-center gap-3">
