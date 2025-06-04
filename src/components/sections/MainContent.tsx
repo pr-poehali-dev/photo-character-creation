@@ -100,7 +100,7 @@ const MainContent = () => {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-[#1d4ed8] active:bg-[#1d4ed8] hover:text-white active:text-white hover:border-[#1d4ed8] active:border-[#1d4ed8] transition-colors font-medium text-[#ffffff]">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-[#1f2937]/82 active:bg-[#1f2937]/82 hover:text-white active:text-white hover:border-[#1f2937]/82 active:border-[#1f2937]/82 transition-colors font-medium text-[#ffffff]">
             Смотреть все
           </button>
         </div>
@@ -133,7 +133,7 @@ const MainContent = () => {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-[#1d4ed8] active:bg-[#1d4ed8] hover:text-white active:text-white hover:border-[#1d4ed8] active:border-[#1d4ed8] transition-colors font-medium text-[#ffffff]">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-[#1f2937]/82 active:bg-[#1f2937]/82 hover:text-white active:text-white hover:border-[#1f2937]/82 active:border-[#1f2937]/82 transition-colors font-medium text-[#ffffff]">
             Показать все модели
           </button>
         </div>
