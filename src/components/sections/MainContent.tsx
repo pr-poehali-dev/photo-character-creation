@@ -100,7 +100,7 @@ const MainContent = () => {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors text-gray-900 font-medium">
             Смотреть все
           </button>
         </div>
@@ -133,7 +133,7 @@ const MainContent = () => {
           />
         </div>
         <div className="flex justify-center mt-8">
-          <button className="px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-colors duration-200 font-medium">
+          <button className="border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors text-gray-900 font-medium">
             Показать все модели
           </button>
         </div>
