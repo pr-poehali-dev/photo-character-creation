@@ -96,11 +96,6 @@ const Sidebar = () => {
             <DropdownMenuTrigger asChild>
               <button className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer">
                 <div className="flex items-center gap-3">
-                  <Icon
-                    name="ChevronDown"
-                    size={16}
-                    className="text-gray-400"
-                  />
                   <span className="font-semibold">Мои работы</span>
                 </div>
                 <Icon name="ChevronRight" size={16} className="text-gray-400" />
