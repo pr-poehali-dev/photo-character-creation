@@ -120,7 +120,7 @@ const MainContent = () => {
           <ModelCard
             title="FLUX.1 [schnell]"
             description="Быстрая генерация изображений"
-            image="https://cdn.poehali.dev/files/6851a32c-5312-44f4-bd1f-4d75a2617dbd.png"
+            image="https://cdn.poehali.dev/files/a5cc0f95-e9c5-4615-a9d9-8b80f7cc6855.png"
             actionText="Использовать"
             tags={["Flux", "Standard"]}
           />
