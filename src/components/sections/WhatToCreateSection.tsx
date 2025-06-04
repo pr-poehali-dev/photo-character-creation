@@ -11,6 +11,7 @@ const WhatToCreateSection = () => {
           title="Изображение"
           icon=""
           color="bg-gradient-to-br from-[#547CFF] to-[#4267CC]"
+          image="https://cdn.poehali.dev/files/cb4306e0-6549-4908-9adb-06296f848079.jpg"
           onClick={() => console.log("Открыть генератор изображений")}
         />
         <ToolCard
