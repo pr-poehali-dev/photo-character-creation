@@ -4,7 +4,7 @@ const WhatToCreateSection = () => {
   return (
     <div className="px-8 py-6 bg-[#262233]">
       <h2 className="text-2xl font-bold text-white mb-6">
-        Рекомендуемые приложения
+        Что вы хотите создать
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <ToolCard
