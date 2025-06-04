@@ -1,5 +1,11 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -86,13 +92,43 @@ const Sidebar = () => {
 
       {!isCollapsed && (
         <div className="mt-auto pt-8">
-          <div className="rounded-lg p-4 bg-[#332D47]">
-            <h4 className="font-semibold mb-2">Мои работы</h4>
-            <p className="text-sm text-gray-400 mb-3">
-              Управляйте вашими проектами
-            </p>
-            <Icon name="Video" size={16} className="text-gray-400" />
-          </div>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="flex items-center justify-between w-full rounded-lg p-4 bg-[#332D47] hover:bg-[#3d3454] transition-colors cursor-pointer">
+                <div className="flex items-center gap-3">
+                  <Icon
+                    name="ChevronDown"
+                    size={16}
+                    className="text-gray-400"
+                  />
+                  <span className="font-semibold">Мои работы</span>
+                </div>
+                <Icon name="ChevronRight" size={16} className="text-gray-400" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="w-56 bg-[#1E1B2A] border-gray-700">
+              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
+                <Icon name="Clock" size={16} />
+                <span>История создания</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
+                <Icon name="Bookmark" size={16} />
+                <span>Закладки</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
+                <Icon name="Heart" size={16} />
+                <span>Понравилось</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
+                <Icon name="FolderOpen" size={16} />
+                <span>Сохраненные альбомы</span>
+              </DropdownMenuItem>
+              <DropdownMenuItem className="flex items-center gap-3 px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-800">
+                <Icon name="Settings" size={16} />
+                <span>Обученные модели</span>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       )}
     </div>
