@@ -32,14 +32,14 @@ const ActionBar = ({ onMobileMenuToggle }: ActionBarProps) => {
             <img
               src="https://cdn.poehali.dev/files/9cd8268f-ce4b-4a8a-8658-e4ed4db4ed7c.svg"
               alt="YouTube"
-              className="w-8 h-8 lg:w-[44px] lg:h-[44px] object-contain"
+              className="w-8 h-8 lg:w-[36px] lg:h-[36px] object-contain"
             />
           </button>
           <button className="hidden md:block p-1 lg:p-2 text-gray-600 hover:text-gray-900 transition-colors">
             <img
               src="https://cdn.poehali.dev/files/5905d0cf-66bd-40df-a94e-5234b296fc63.svg"
               alt="Discord"
-              className="w-6 h-6 lg:w-[32px] lg:h-[32px] object-contain"
+              className="w-8 h-8 lg:w-[36px] lg:h-[36px] object-contain"
             />
           </button>
           <DropdownMenu>
